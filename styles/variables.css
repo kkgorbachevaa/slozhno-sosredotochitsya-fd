@@ -12,9 +12,8 @@
   --accent-font-size: 1.125rem;
   --neon-title-text-color: #DB00FF;
   --main-text-color: #F1B2CE;
-  --main-font-style: Regular;
   --main-font-weight: 400;
-  --main-font-family: "IBM Plex Mono";
+  --main-font-family: "IBM Plex Mono", monospace;
   --main-font-size: 1.125rem;
   --title-text-color: #FF0070;
   --link-color: #F1B2CE;
