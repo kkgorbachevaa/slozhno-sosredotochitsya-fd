@@ -9,4 +9,53 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --page-bg-image: url(../images/cover-image-light.png);
+  --page-bg-color: #FFC2E6;
+  --accent-bg-color: #FF8DCB;
+  --accent-text-color: #353430;
+  --accent-font-style: bold;
+  --accent-font-weight: 700;
+  --accent-font-size: 1.125rem;
+  --neon-title-text-color: #FFC2E6;
+  --main-text-color: #353430;
+  --main-font-style: Regular;
+  --main-font-weight: 400;
+  --main-font-family: "IBM Plex Mono";
+  --main-font-size: 1.125rem;
+  --title-text-color: #353430;
+  --link-color: #353430;
+  --decorated-zone-color: #353430;
+  --header__theme-menu-button-hover-color: #32312D66;
+  --header__theme-menu-button-focus-color: #353430;
+}
+
+.theme-light .header__rec {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+  --page-bg-image: url(../images/cover-image-light.png);
+  --page-bg-color: #FFC2E6;
+  --accent-bg-color: #FF8DCB;
+  --accent-text-color: #353430;
+  --accent-font-style: bold;
+  --accent-font-weight: 700;
+  --accent-font-size: 1.125rem;
+  --neon-title-text-color: #FFC2E6;
+  --main-text-color: #353430;
+  --main-font-style: Regular;
+  --main-font-weight: 400;
+  --main-font-family: "IBM Plex Mono";
+  --main-font-size: 1.125rem;
+  --title-text-color: #353430;
+  --link-color: #353430;
+  --decorated-zone-color: #353430;
+  --header__theme-menu-button-hover-color: #32312D66;
+  --header__theme-menu-button-focus-color: #353430;
+  }
+
+  .theme-light .header__rec {
+    display: none;
+  }
 }
