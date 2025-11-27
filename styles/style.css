@@ -302,12 +302,10 @@
 
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    margin-block-start: 10.188rem;
     margin-inline-start: -1.25rem; /* Отрицательный марджин, чтобы подвинуть заголовок к левому краю */
   }
 
   .header__description {
-    margin-block-start: 9.375rem;
     margin-inline-end: 0.125rem;
     inline-size: 100%;
     max-inline-size: 364px;
