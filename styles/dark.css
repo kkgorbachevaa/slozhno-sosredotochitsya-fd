@@ -21,3 +21,7 @@
   --header__theme-menu-button-hover-color: #FF007066;
   --header__theme-menu-button-focus-color: #FF0070;
 }
+
+.theme-dark .header__rec {
+  display: inline;
+}

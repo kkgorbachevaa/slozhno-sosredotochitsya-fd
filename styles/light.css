@@ -41,7 +41,7 @@
   --header__theme-menu-button-focus-color: #353430;
   }
 
-   :root:not(.theme-dark) .header__rec {
+  .header__rec {
     display: none;
   }
 }
